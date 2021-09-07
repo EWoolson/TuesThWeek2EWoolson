@@ -9,5 +9,6 @@ public class Main {
         var age = reader.nextFloat();
         var dogYears = age*7;
         System.out.println("Wow, you are "+age+" that is "+ dogYears+ " in dog years");
+
     }
 }
