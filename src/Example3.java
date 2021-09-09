@@ -12,7 +12,10 @@ public class Example3 {
             if (!userResponse.equals("done")){
                 studentNames.add(userResponse);
             }
-
+        }
+        System.out.println("The students in your class are:");
+        for (var Name:studentNames) {
+            System.out.println(Name);
         }
     }
 }
